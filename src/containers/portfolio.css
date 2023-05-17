@@ -1,0 +1,143 @@
+.portfolio-container,
+.contact-container {
+  padding: 9rem 0;
+  background-color: var(--color-dark);
+}
+.text-left {
+  text-align: right;
+}
+
+.img-port {
+  width: 100%;
+
+  /* height: 35rem; */
+  object-fit: cover;
+}
+.im-overlay {
+  position: relative;
+  width: 60%;
+}
+.im-overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* color: red; */
+  width: 100%;
+  height: 100%;
+  /* z-index: 15; */
+  background-color: #3fb9b5a4;
+}
+.portfolio {
+  padding: 6rem 0;
+}
+.project-img {
+  position: relative;
+}
+.project-img .proj-exp {
+  background-color: var(--color-grey);
+  padding: 1.5rem;
+  color: var(--color-text);
+  font-size: 1.6rem;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+
+.img-right-side .img-port {
+  width: 60%;
+  /* position: relative; */
+}
+.project-img .title-port {
+  position: absolute;
+  top: 3%;
+  right: 0;
+}
+.title-port h3 {
+  font-size: 2.2rem;
+  color: var(--color-white);
+}
+.project-img .title-port p {
+  color: var(--color-green);
+  font-size: 1.3rem;
+  display: block;
+  line-height: 1;
+  text-align: right;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.project-img .skills-work {
+  position: absolute;
+  bottom: 12%;
+  right: 0;
+}
+
+.skills-work ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.6rem;
+  color: var(--color-text);
+  gap: 0.8rem;
+}
+.project-img .icons {
+  display: flex;
+  align-items: end;
+  gap: 2rem;
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+}
+
+.icons a {
+  color: var(--color-text);
+}
+.portfolio-two {
+  position: relative;
+
+  width: 100%;
+  min-height: 40.2vh;
+}
+.two-exp {
+  background-color: var(--color-grey);
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: var(--color-text);
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  z-index: 12;
+}
+
+img.imges-port {
+  width: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  display: block;
+}
+.portfolio-two .title-port {
+  position: absolute;
+  top: 8%;
+  left: 0;
+}
+.portfolio-two .title-port p {
+  color: var(--color-green);
+  font-size: 1.3rem;
+  display: block;
+  line-height: 1;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.portfolio-two .skills-work {
+  position: absolute;
+  bottom: 17%;
+  left: 0;
+}
+.portfolio-two .icons {
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+}
